@@ -1,31 +1,25 @@
 {
   "@context": {
     "law": "https://tarachineno.github.io/radio-act-japan-jsonld/ontology#",
-    "chapterNumber": {
-      "@id": "law:chapterNumber",
-      "@container": "@language"
-    },
-    "articleNumber": {
-      "@id": "law:articleNumber",
-      "@container": "@language"
-    },
-    "title": "law:title",
-    "text": "law:text",
-    "items": "law:items",
-    "paragraphs": "law:paragraphs",
+    "chapterNumber": "law:chapterNumber",
+    "sectionNumber": "law:sectionNumber",
+    "articleNumber": "law:articleNumber",
     "number_ja": "law:number_ja",
     "number_en": "law:number_en",
+    "title": "law:title",
+    "text": "law:text",
     "original": "law:original",
     "translation": "law:translation",
-    "language": {
-      "@id": "law:language",
-      "@container": "@set"
-    },
-    "purpose": "law:purpose",
-    "source": {
-      "@id": "law:source",
+    "items": "law:items",
+    "language": "law:language",
+    "source": "law:source",
+    "sections": {
+      "@id": "law:sections",
       "@type": "@id"
     },
-    "@version": 1.1
+    "articles": {
+      "@id": "law:articles",
+      "@type": "@id"
+    }
   }
 }
