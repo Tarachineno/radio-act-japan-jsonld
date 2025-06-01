@@ -1,0 +1,98 @@
+{
+  "@context": "../context/radio-act-context.json",
+  "@type": "law:Chapter",
+  "chapterNumber": {
+    "ja": "第一章",
+    "en": "Chapter I"
+  },
+  "title": "総則",
+  "articles": [
+    {
+      "@type": "law:Article",
+      "articleNumber": {
+        "ja": "第一条",
+        "en": "Article 1"
+      },
+      "title": "目的",
+      "text": {
+        "original": "この法律は、電波の公平かつ能率的な利用を確保するとともに、公共の福祉を増進することを目的とする。",
+        "translation": "The purpose of this Act is to ensure the fair and efficient use of radio waves and to contribute to the promotion of the public welfare."
+      },
+      "purpose": {
+        "@type": "law:Purpose",
+        "text": {
+          "original": "電波の公平かつ能率的な利用の確保、および公共の福祉の増進",
+          "translation": "Ensuring the fair and efficient use of radio waves, and the promotion of public welfare"
+        }
+      },
+      "language": ["ja", "en"],
+      "source": "https://www.japaneselawtranslation.go.jp/en/laws/view/3205"
+    },
+    {
+      "@type": "law:Article",
+      "articleNumber": {
+        "ja": "第二条",
+        "en": "Article 2"
+      },
+      "title": "定義",
+      "text": {
+        "original": "この法律及びこの法律に基づく命令の規定の解釈に関しては、次の定義に従うものとする。",
+        "translation": "This Act and the orders pursuant to this Act are to be interpreted in accordance with the following definitions:"
+      },
+      "items": [
+        {
+          "number_ja": "一",
+          "number_en": "(i)",
+          "original": "「電波」とは、三百万メガヘルツ以下の周波数の電磁波をいう。",
+          "translation": "\"radio waves\" means electronic or magnetic waves of frequencies not exceeding 3,000,000 MHz."
+        },
+        {
+          "number_ja": "二",
+          "number_en": "(ii)",
+          "original": "「無線電信」とは、電波を利用して、符号を送り、又は受けるための通信設備をいう。",
+          "translation": "\"radiotelegraphy\" means communication equipment devoted to transmitting or receiving codes utilizing radio waves."
+        },
+        {
+          "number_ja": "三",
+          "number_en": "(iii)",
+          "original": "「無線電話」とは、電波を利用して、音声その他の音響を送り、又は受けるための通信設備をいう。",
+          "translation": "\"radiotelephony\" means communication equipment devoted to transmitting or receiving voices and other sounds utilizing radio waves."
+        },
+        {
+          "number_ja": "四",
+          "number_en": "(iv)",
+          "original": "「無線設備」とは、無線電信、無線電話その他電波を送り、又は受けるための電気的設備をいう。",
+          "translation": "\"radio equipment\" means radiotelegraphy, radiotelephony, or any other electric equipment used for the transmission or reception of radio waves."
+        },
+        {
+          "number_ja": "五",
+          "number_en": "(v)",
+          "original": "「無線局」とは、無線設備及び無線設備の操作を行う者の総体をいう。但し、受信のみを目的とするものを含まない。",
+          "translation": "\"radio station\" means a unit of radio equipment using a person to operate the radio equipment. However, this does not include those used solely for receiving purposes."
+        },
+        {
+          "number_ja": "六",
+          "number_en": "(vi)",
+          "original": "「無線従事者」とは、無線設備の操作又はその監督を行う者であつて、総務大臣の免許を受けたものをいう。",
+          "translation": "\"radio operator\" means a person who operates radio equipment or supervises that operation, and holds a license granted by the Minister of Internal Affairs and Communications."
+        }
+      ],
+      "language": ["ja", "en"],
+      "source": "https://www.japaneselawtranslation.go.jp/en/laws/view/3205"
+    },
+    {
+      "@type": "law:Article",
+      "articleNumber": {
+        "ja": "第三条",
+        "en": "Article 3"
+      },
+      "title": "電波に関する条約",
+      "text": {
+        "original": "電波に関し条約に別段の定があるときは、その規定による。",
+        "translation": "If any convention provides otherwise for radio waves, the provisions are to prevail."
+      },
+      "language": ["ja", "en"],
+      "source": "https://www.japaneselawtranslation.go.jp/en/laws/view/3205"
+    }
+  ]
+}
