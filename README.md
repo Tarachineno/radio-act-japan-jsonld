@@ -1,39 +1,58 @@
-# Japanese Radio Act - JSON-LD Project
+# Japanese Radio Act JSON-LD
 
-This repository aims to provide a structured, machine-readable version of the Japanese Radio Act using the JSON-LD format. It is intended for developers, legal technologists, and researchers who wish to parse, analyze, and reuse legal data efficiently.
+This repository provides a structured, machine-readable representation of the Japanese Radio Act using the JSON-LD format.
 
-## Purpose
+## 🎯 Purpose
 
-* Digitally encode the Japanese Radio Act in a bilingual (Japanese/English) JSON-LD format
-* Enable semantic web and linked data usage in legal and regulatory technologies
-* Facilitate AI-based legal processing, annotation, and natural language understanding
+- Represent and publish provisions of the Japanese Radio Act in both Japanese and English using JSON-LD.
+- Promote reuse as open data for searching, comparison, legal processing, and AI training.
+- Establish a model case for legal data structuring in compliance with international standards.
 
-## Features
-
-* Article-by-article JSON-LD representation
-* @context definition for consistent semantic labeling
-* Bilingual support (Japanese original and English translation)
-
-## Sources
-
-* Japanese original: [e-Gov Law System (e-Gov法令系)](https://elaws.e-gov.go.jp/)
-* English translation: [Japanese Law Translation (Ministry of Justice)](https://www.japaneselawtranslation.go.jp/en/laws/view/3205)
-
-## Repository Structure
+## 📁 Project Structure
 
 ```
 radio-act-japan-jsonld/
-├── data/
-│   └── articles/
-│       ├── article-001.json
-│       ├── article-002.json
-│       └── ...
-├── context/
-│   └── radio-act-context.json
 ├── README.md
-└── LICENSE
+├── context/
+│   └── radio-act-context.json     # JSON-LD @context definition
+├── chapter/
+│   ├── chapter_001.json          # Chapter I: General Provisions
+│   └── chapter_002.json          # Chapter II: ...
 ```
 
-## License
+## 📘 Naming Conventions
 
-This project is open-source under the MIT License.
+- Chapter file names follow: `chapter_001.json` (3-digit index)
+- Chapter numbers: `chapterNumber.ja`, `chapterNumber.en`
+- Article numbers: `articleNumber.ja`, `articleNumber.en`
+- Clause numbers: `number_ja`, `number_en` (e.g., "一" and "(i)")
+
+## 🌐 JSON-LD Context
+
+```json
+"@context": "https://tarachineno.github.io/radio-act-japan-jsonld/context/radio-act-context.json"
+```
+
+Vocabulary IRI definition:
+```json
+"law": "https://tarachineno.github.io/radio-act-japan-jsonld/ontology#"
+```
+
+## 🔧 Usage
+
+- Use with JSON-LD compatible tools such as `jsonld.js` or `pyld`
+- Supports AI/ML training and knowledge graph generation
+
+## 🤝 Contributing
+
+- Please open an Issue or Pull Request if you find any structural or translation issues
+- PRs with properly formatted JSON are highly appreciated
+
+## 📚 Sources
+
+- Ministry of Internal Affairs and Communications (Japanese): https://www.soumu.go.jp/menu_hourei/s_shourei.html
+- Ministry of Justice (English translation): https://www.japaneselawtranslation.go.jp/en/laws/view/3205
+
+---
+
+A future-proof legal AI infrastructure project by Tsune & Mannee ✨
